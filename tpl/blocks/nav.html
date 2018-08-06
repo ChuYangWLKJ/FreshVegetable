@@ -1,0 +1,147 @@
+<!-- list -->
+<ul class="nav">
+  <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+    <span translate="aside.nav.header">后台管理</span>
+  </li>
+  <li ng-class="{active:$state.includes('app.main')}">
+    <a href class="auto">      
+      <span class="pull-right text-muted">
+        <i class="fa fa-fw fa-angle-right text"></i>
+        <i class="fa fa-fw fa-angle-down text-active"></i>
+      </span>
+      <i class="glyphicon glyphicon-stats icon text-primary-dker"></i>
+      <span class="font-bold" translate="aside.nav.main">首页</span>
+    </a>
+    <ul class="nav nav-sub dk">
+      <li class="nav-sub-header">
+        <a href>
+          <span translate="aside.nav.main">首页</span>
+        </a>
+      </li>
+      <li ui-sref-active="active">
+        <a ui-sref="app.main">
+          <span>分析</span>
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+  <!-- 商品 -->
+  <li ng-class="{active:$state.includes('app.form')}">
+    <a href class="auto">      
+      <span class="pull-right text-muted">
+        <i class="fa fa-fw fa-angle-right text"></i>
+        <i class="fa fa-fw fa-angle-down text-active"></i>
+      </span>
+      <i class="icon-handbag icon text-info-dker"></i>
+      <span class="font-bold" translate="aside.nav.commodity">商品</span>
+    </a>
+    <ul class="nav nav-sub dk">
+      <li class="nav-sub-header">
+        <a href>
+          <span translate="aside.nav.commodity">商品</span>
+        </a>
+      </li>
+      <li ui-sref-active="active">
+        <a ui-sref="app.table.commodity_tables">
+          <span>列表</span>
+        </a>
+      </li>
+      <li ui-sref-active="active">
+        <a ui-sref="app.form.commodity_add">
+          <span>添加</span>
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+  <!-- end 商品 -->
+  <!-- 订单 -->
+  <li ui-sref-active="active">
+    <a ui-sref="app.calendar">
+      <i class="icon-basket-loaded icon text-info-dker"></i>
+      <span class="font-bold" translate="aside.nav.order">订单</span>
+    </a>
+  </li>
+  <li ui-sref-active="active">
+    <a ui-sref="app.calendar">
+      <i class=" icon-social-dropbox icon text-info-dker"></i>
+      <span class="font-bold" translate="aside.nav.purchase">采购</span>
+    </a>
+  </li>
+  <li ui-sref-active="active">
+    <a ui-sref="app.calendar">
+      <i class="icon-home icon text-info-dker"></i>
+      <span class="font-bold" translate="aside.nav.treasury">库房</span>
+    </a>
+  </li>
+  <li ui-sref-active="active">
+    <a ui-sref="app.calendar">
+      <i class="fa fa-truck icon text-info-dker"></i>
+      <span class="font-bold" translate="aside.nav.distribution">配送</span>
+    </a>
+  </li>
+  <li ui-sref-active="active">
+    <a ui-sref="app.calendar">
+      <i class="icon-users icon text-info-dker"></i>
+      <span class="font-bold" translate="aside.nav.client">客户</span>
+    </a>
+  </li>
+  <li ui-sref-active="active">
+    <a ui-sref="app.calendar">
+      <i class="icon-graph icon text-info-dker"></i>
+      <span class="font-bold" translate="aside.nav.marketing">营销</span>
+    </a>
+  </li>
+  
+  <li ui-sref-active="active">
+    <a ui-sref="app.calendar">
+      <i class="fa fa-usd icon text-info-dker"></i>
+      <span class="font-bold" translate="aside.nav.finance">财务</span>
+    </a>
+  </li> 
+  <li ui-sref-active="active">
+    <a ui-sref="app.calendar">
+      <i class=" icon-speedometer icon text-info-dker"></i>
+      <span class="font-bold" translate="aside.nav.report">报表</span>
+    </a>
+  </li>
+  
+
+  <li class="line dk"></li>
+
+  <li ui-sref-active="active">
+    <a ui-sref="app.calendar">
+      <i class="fa fa-android icon text-info-dker"></i>
+      <span class="font-bold" translate="aside.nav.mall">商城</span>
+    </a>
+  </li>
+
+  <li ui-sref-active="active">
+    <a ui-sref="app.calendar">
+      <i class="icon-badge icon text-info-dker"></i>
+      <span class="font-bold" translate="aside.nav.permission">权限</span>
+    </a>
+  </li>
+
+
+  <!-- <li class="line dk hidden-folded"></li> -->
+
+  <!-- <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">          
+    <span translate="aside.nav.your_stuff.YOUR_STUFF">Your Stuff</span>
+  </li>  
+  <li>
+    <a ui-sref="app.page.profile">
+      <i class="icon-user icon text-success-lter"></i>
+      <b class="badge bg-success pull-right">30%</b>
+      <span translate="aside.nav.your_stuff.PROFILE">Profile</span>
+    </a>
+  </li>
+  <li>
+    <a ui-sref="app.docs">
+      <i class="icon-question icon"></i>
+      <span translate="aside.nav.your_stuff.DOCUMENTS">Documents</span>
+    </a>
+  </li> -->
+</ul>
+<!-- / list -->

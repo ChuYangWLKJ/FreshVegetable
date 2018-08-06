@@ -1,0 +1,18 @@
+
+.home-header a {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.home-header a:hover,
+.home-header a:focus {
+  color: #141719;
+  text-decoration: none;
+}
+
+.home-header{
+
+    background-color: black;
+
+}
